@@ -1,27 +1,20 @@
-# Todoapp
+# MacroPeliculas
+  ## Pasos importates por hacer para que el programa corra correctamente:
+  - Instalar los node_modules con `npm install` 
+  - cambiar las credenciales de `.firebaserc` y `enviroments`
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
+Este proyecto consiste en una página web de una "empresa" la cual se dedica a rentar películas, estas se entregan en persona con los datos proporcionado por los usuario esta página cuenta con un login en el cual el usuario se puede logear, registrarse o iniciar sesión con una cuenta de terceros, un home en donde el usuario puede ver las películas del momento, cuenta con un search para que el usuario busque la película que el desee, cada película cuenta con su propia pagina en la cual se muestra detalles de la misma, su tráiler y el cast que participo en la misma y puede revisar el historial de su compras.
 
-## Development server
+## Demo
+https://macropeliculas.web.app/
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Preview
+  
+  ### Login
+  ![image](https://user-images.githubusercontent.com/37966712/113535268-8d1d3000-9598-11eb-8e80-d2370065a188.png)
 
-## Code scaffolding
+-------
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Mas informacion y herramientas utilizadas:
+ - **Angular** ( Framework utilizado en su version 11.2.6 )
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
